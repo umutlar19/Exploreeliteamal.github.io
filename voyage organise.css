@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #222;
+    color: #29d9d5;
+    text-align: center;
+    padding: 1em;
+    
+}
+a{
+    text-decoration: none;
+    color: #29d9d5;
+}
+h2 {
+    font-size: 15px;
+    color: #29d9d5;
+    margin-bottom: 10px;
+    -webkit-text-stroke: #ffffff 0.02px;
+    text-transform: lowercase;
+    text-align: center;
+}
+h3 {
+    font-size: 15px;
+    color: #29d9d5;
+    margin-bottom: 10px;
+    -webkit-text-stroke: #ffffff 0.02px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.offer {
+    width: 300px;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.offer img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-info {
+    padding: 1em;
+}
+.offer-info a {
+    text-decoration: none;
+    text-align: center;
+}
+.offer-info .prix {
+    margin: 70px 0;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+}
+.offer-info .duree {
+    margin: 70px 0;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+}
+.btn-rsv {
+    color: #29d9d5;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btn-rsv:hover {
+    background-color: #29d9d5;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

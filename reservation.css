@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,400&display=swap');
+body {
+    font-family:'Poppins',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.container {
+    background:#fff;
+    margin: 200px;
+    box-shadow:10px 15px 20px rgb(0, 0, 0,.1) ;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-temps {
+    background-image: url(Visa\ Agent\ Travel\ Outbound\ Tour\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg);
+    padding: 50px;
+    text-align: center;
+}
+.head {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.container-temps p {
+    color: rgb(0, 23, 45);
+}
+.contact {
+    font-size: 20px;
+}
+.container-forme {
+    padding: 20px 0;
+    margin: 0 auto;
+    color: rgb(0, 64, 91);
+}
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+form p {
+    font-weight: 600;
+}
+.form-champ {
+    display: flex;
+    justify-content: space-between;
+}  
+input,select {
+    pad: 10px 15px;
+}
+.btn {
+    background-color: #29d9d5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius:100px ;
+    box-shadow: 7px 10px 12px rgb(0, 0, 0,.1);
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgb(0, 0, 0,.3);
+}
